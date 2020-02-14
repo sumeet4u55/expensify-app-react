@@ -13,6 +13,9 @@
     "start": "node server/server.js",
     "heroku-postbbuild": "npm run build:production"
   },
+  "engines": {
+    "node": "10.15.0"
+  },
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
